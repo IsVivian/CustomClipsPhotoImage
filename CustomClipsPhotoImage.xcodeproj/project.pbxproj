@@ -14,6 +14,9 @@
 		4B80F5861DE829A1003EEB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B80F5841DE829A1003EEB22 /* LaunchScreen.storyboard */; };
 		4B80F5911DE829A1003EEB22 /* CustomClipsPhotoImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F5901DE829A1003EEB22 /* CustomClipsPhotoImageTests.swift */; };
 		4B80F59C1DE829A1003EEB22 /* CustomClipsPhotoImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F59B1DE829A1003EEB22 /* CustomClipsPhotoImageUITests.swift */; };
+		4B80F5AC1DE82D0C003EEB22 /* MyClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F5AB1DE82D0C003EEB22 /* MyClipsViewController.swift */; };
+		4B80F5AE1DE82EF8003EEB22 /* ClipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F5AD1DE82EF8003EEB22 /* ClipsView.swift */; };
+		4B80F5EA1DEBC76D003EEB22 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F5E91DEBC76D003EEB22 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4B80F5971DE829A1003EEB22 /* CustomClipsPhotoImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomClipsPhotoImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B80F59B1DE829A1003EEB22 /* CustomClipsPhotoImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClipsPhotoImageUITests.swift; sourceTree = "<group>"; };
 		4B80F59D1DE829A1003EEB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B80F5AB1DE82D0C003EEB22 /* MyClipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClipsViewController.swift; sourceTree = "<group>"; };
+		4B80F5AD1DE82EF8003EEB22 /* ClipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipsView.swift; sourceTree = "<group>"; };
+		4B80F5E91DEBC76D003EEB22 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				4B80F57B1DE829A1003EEB22 /* AppDelegate.swift */,
 				4B80F57D1DE829A1003EEB22 /* ViewController.swift */,
+				4B80F5E91DEBC76D003EEB22 /* Extension.swift */,
+				4B80F5AB1DE82D0C003EEB22 /* MyClipsViewController.swift */,
+				4B80F5AD1DE82EF8003EEB22 /* ClipsView.swift */,
 				4B80F57F1DE829A1003EEB22 /* Main.storyboard */,
 				4B80F5821DE829A1003EEB22 /* Assets.xcassets */,
 				4B80F5841DE829A1003EEB22 /* LaunchScreen.storyboard */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B80F57E1DE829A1003EEB22 /* ViewController.swift in Sources */,
+				4B80F5AE1DE82EF8003EEB22 /* ClipsView.swift in Sources */,
+				4B80F5EA1DEBC76D003EEB22 /* Extension.swift in Sources */,
+				4B80F5AC1DE82D0C003EEB22 /* MyClipsViewController.swift in Sources */,
 				4B80F57C1DE829A1003EEB22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				4B80F5A21DE829A1003EEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B80F5A31DE829A1003EEB22 /* Build configuration list for PBXNativeTarget "CustomClipsPhotoImageTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				4B80F5A51DE829A1003EEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B80F5A61DE829A1003EEB22 /* Build configuration list for PBXNativeTarget "CustomClipsPhotoImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				4B80F5A81DE829A1003EEB22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
